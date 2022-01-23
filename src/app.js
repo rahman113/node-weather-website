@@ -11,8 +11,9 @@ console.log(path.join(__dirname, '../public'));
 
 // Define paths for express config
 const app = express();
-const publicDirectoryPath = path.join(__dirname, '../public');
+const port = process.env.PORT || 3000
 
+const publicDirectoryPath = path.join(__dirname, '../public');
 
 // setup handlebars and views location
 const viewsPath = path.join(__dirname, '../templates/views');
@@ -137,7 +138,7 @@ app.get('*', (req, res) =>{
   });
  
 
-app.listen(3000, () =>{
-     console.log('Server is up on port numbrt 3000');
+app.listen(port, () =>{
+     console.log('Server is up on port numbrt! ' + port);
 
 });
