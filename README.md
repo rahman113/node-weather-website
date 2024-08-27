@@ -39,7 +39,6 @@ To run this project locally, follow these instructions:
     3. View the current weather information displayed on the page.
 
 some images
+![Screenshot from 2024-08-27 20-34-45](https://github.com/user-attachments/assets/0b0371cc-6f35-4c4d-b811-1698f6eafe06)
 
-    ![Screenshot from 2024-08-27 20-34-45](https://github.com/user-attachments/assets/4aaf26d7-5b57-4e25-8e11-22e0449a9806)
-
-
+   
